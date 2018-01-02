@@ -31,5 +31,32 @@ namespace WindowsFormsApp1
             label1.Text = Convert.ToString(ss + ssd);
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String s = textBox2.Text;
+            int ss = Int32.Parse(s);
+            String sd = textBox1.Text;
+            int ssd = Int32.Parse(sd);
+            label1.Text = Convert.ToString(ss - ssd);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            String s = textBox2.Text;
+            int ss = Int32.Parse(s);
+            String sd = textBox1.Text;
+            int ssd = Int32.Parse(sd);
+            label1.Text = Convert.ToString(ss * ssd);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            String s = textBox2.Text;
+            int ss = Int32.Parse(s);
+            String sd = textBox1.Text;
+            int ssd = Int32.Parse(sd);
+            label1.Text = Convert.ToString(ss / ssd);
+        }
     }
 }
