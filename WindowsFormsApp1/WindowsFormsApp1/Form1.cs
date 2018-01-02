@@ -16,5 +16,20 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String s = textBox2.Text;
+            int ss = Int32.Parse(s);
+            String sd = textBox1.Text;
+            int ssd = Int32.Parse(sd);
+            label1.Text = Convert.ToString(ss + ssd);
+            
+        }
     }
 }
